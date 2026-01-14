@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Bianca ❤️</title>
+  <style>
+    body {
+      background: #0b0b0b;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    img {
+      max-width: 90%;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 25px;
+      background: #ff4d6d;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bianca ❤️</h1>
+
+  <p class="note">
+    I love you, my crazy beautiful woman, and every moment with you is super special to me.<br>
+    You make my days brighter just by being you.<br>
+    And yes… I love your butt too — even though mine is definitely bigger 😉
+  </p>
+
+  <button onclick="playMusic()">▶ Play our song</button>
+
+  <img src="photo.jpg" alt="Bianca">
+
+  <audio id="loveSong" loop>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    function playMusic() {
+      document.getElementById("loveSong").play();
+    }
+  </script>
+
+</body>
+</html>
